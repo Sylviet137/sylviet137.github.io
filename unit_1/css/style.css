@@ -1,15 +1,11 @@
 style.css
 
-<<<<<<< HEAD
 body
-{background-color: black
-=======
-body {
-	background-color: gray
+{background-color: gray
 
->>>>>>> parent of 46c4780... New edits
 }
 
-h1, p {
+
+h1, h3, p {
 	color: gold
 }
