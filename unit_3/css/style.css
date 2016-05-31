@@ -7,13 +7,14 @@ h1 {
 	color: #66757a;
 	font-family: Helvetica;
 	font-weight: 60px;
-	position: center;
+	text-align: center;
+	background: url("file:///Users/sylvietaylor/Dropbox/img_background.jpg");
 }
 
 h3 {
 	font-family: Helvetica;
 	font-weight: 40px;
-	position: center;
+	text-align: center;
 }
 
 p {
