@@ -15,9 +15,11 @@ h3 {
 	font-family: Helvetica;
 	font-weight: 40px;
 	text-align: center;
+	width: 600px;
 }
 
 p {
 	font-family: Helvetica;
 	font-weight: 12px;
+	width: 600px
 }
