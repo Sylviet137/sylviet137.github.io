@@ -1,0 +1,18 @@
+style.css
+body
+h1 {
+	background-image: img_src="unit_3/images/IMG_Background.jpg" alt="Yosemite"; style="width:800px;height:600px"
+	font-style: Helvetica;
+	font-weight: 60px;
+}
+
+h3 {
+	font-style: Helvetica;
+	font-weight: 40px;
+}
+
+p {
+	background-color: #F1EBF0
+	font-style: Helvetica;
+	font-weight: 12px;
+}
