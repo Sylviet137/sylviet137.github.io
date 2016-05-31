@@ -4,11 +4,14 @@ body {
 }
 
 h1 {
+	position: center;
+	color: #66757a;
 	font-family: Helvetica;
 	font-weight: 60px;
 }
 
 h3 {
+	position: center;
 	font-family: Helvetica;
 	font-weight: 40px;
 }
