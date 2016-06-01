@@ -3,9 +3,18 @@ body {
 	background-color: 200-218-255
 }
 
-div {
-	text-align: left;
-	font-weight: bold; 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+li a {
+	display: inline;
+	float: left;
+	display: block;
+	padding: 8px;
 
 }
 
