@@ -22,7 +22,7 @@ h1 {
 	text-align: center;
 	color: #38353B;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 5000px;
+	font-weight: 100pt;
 	margin-bottom: 20px;
 }
 
@@ -31,7 +31,6 @@ h2 {
 	font-weight: 60px;
 	text-align: center;
 	font-style: italic;
-	width: 600px;
 	margin-bottom: 20px;
 }
 
@@ -69,12 +68,17 @@ li a {
 p {
 	font-family: Helvetica, Sans Serif;
 	text-align: center;
+	width: 500px;
 	font-weight: 12px;
 
 }
 
 .break {
 	background-color: #C8DAFF; 
+}
+
+.list {
+	color: black
 }
 
 footer {
