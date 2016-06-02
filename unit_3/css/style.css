@@ -15,12 +15,12 @@ body {
 h1 {
 	position: absolute;
 	top: 500px;
-	margin-left: 400px;
+	margin-left: 550px;
 	margin-right: 400px;
 	text-align: center;
 	color: #38353B;
-	font-family: Helvetica, Sans Serif;
-	font-weight: 170px;
+	font-family: Helvetica Neue Thin;
+	font-weight: 500px;
 	margin-bottom: 20px;
 }
 
