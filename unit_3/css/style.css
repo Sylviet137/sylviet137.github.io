@@ -77,8 +77,9 @@ p {
 }
 
 .nav {
+	margin-left: 700px;
 	float: left;
-	
+
 }
 
 .break {
@@ -86,7 +87,7 @@ p {
 }
 
 .list {
-	color: black
+	color: black;
 }
 
 footer {
