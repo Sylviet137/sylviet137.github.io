@@ -73,6 +73,10 @@ p {
 	width: 750px
 }
 
+hr {
+	width: 300px;
+}
+
 footer {
 	padding: 20px;
 	text-align: center;
