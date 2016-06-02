@@ -46,7 +46,6 @@ h3 {
 	font-family: Helvetica, Sans Serif;
 	font-weight: 40px;
 	text-align: center;
-	width: 600px;
 	margin-bottom: 40px;
 }
 
@@ -72,6 +71,10 @@ p {
 	text-align: center;
 	font-weight: 12px;
 
+}
+
+.break {
+	background-color: #C8DAFF; 
 }
 
 footer {
