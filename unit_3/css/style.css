@@ -6,22 +6,31 @@ style.css
 }
 
 body {
-	font-family: Helvetica;
+	font-family: Helvetica, Sans Serif;
 	font-size: 18px
 	background-color: #C8DAFF;
 	line-height: 1.0;
 }
 
 h1 {
+	position: absolute;
+	top: 700px;
 	color: #66757a;
-	font-family: Helvetica;
+	font-family: Helvetica, Sans Serif;
 	font-weight: 60px;
 	text-align: center;
 	margin-bottom: 20px;
 }
 
+img {
+	position: relative;
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 h3 {
-	font-family: Helvetica;
+	font-family: Helvetica, Sans Serif;
 	font-weight: 40px;
 	text-align: center;
 	width: 600px;
@@ -29,8 +38,8 @@ h3 {
 }
 
 ul {
-	list-style-type: none;
 	text-align: left;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	color: #C9E3FF;
@@ -46,14 +55,8 @@ li a {
 
 }
 
-img {
-	width:100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
 p {
-	font-family: Helvetica;
+	font-family: Helvetica, Sans Serif;
 	font-weight: 12px;
 	width: 750px
 	text-align: center;
