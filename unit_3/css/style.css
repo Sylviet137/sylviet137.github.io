@@ -22,7 +22,7 @@ h1 {
 	text-align: center;
 	color: #38353B;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 300pt;
+	font-weight: 500pt;
 	margin-bottom: 20px;
 }
 
@@ -67,8 +67,8 @@ li a {
 
 p {
 	font-family: Helvetica, Sans Serif;
-	text-align: center;
 	width: 500px;
+	margin-left: 500px;
 	font-weight: 12px;
 
 }
