@@ -31,6 +31,7 @@ h2 {
 	font-weight: 60px;
 	text-align: center;
 	font-style: italic;
+	margin-left: 
 	margin-bottom: 20px;
 }
 
@@ -67,10 +68,9 @@ li a {
 
 p {
 	font-family: Helvetica, Sans Serif;
-	width: 500px;
-	margin-left: 500px;
+	text-align: center;
 	font-weight: 12px;
-	line-height: 2.0px;
+	width: 600px;
 
 }
 
