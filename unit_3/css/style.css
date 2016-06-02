@@ -19,14 +19,15 @@ h1 {
 	margin-right: 400px;
 	text-align: center;
 	color: #38353B;
-	font-family: Helvetica Neue Thin;
-	font-weight: 500px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 700px;
 	margin-bottom: 20px;
 }
 
 h2 {
 	font-family: Helvetica, Sans Serif;
 	font-weight: 60px;
+	margin-left: 550px;
 	text-align: center;
 	font-style: italic;
 	width: 600px;
@@ -43,6 +44,7 @@ img {
 h3 {
 	font-family: Helvetica, Sans Serif;
 	font-weight: 40px;
+	margin-left: 550px;
 	text-align: center;
 	width: 600px;
 	margin-bottom: 20px;
@@ -68,6 +70,7 @@ li a {
 
 p {
 	font-family: Helvetica, Sans Serif;
+	margin-left: 550px;
 	text-align: center;
 	font-weight: 12px;
 	width: 750px
