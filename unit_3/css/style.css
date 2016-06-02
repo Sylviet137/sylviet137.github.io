@@ -10,6 +10,8 @@ body {
 	font-size: 18px
 	background-color: #C8DAFF;
 	line-height: 1.0;
+	text-align: center;
+
 }
 
 h1 {
@@ -20,7 +22,7 @@ h1 {
 	text-align: center;
 	color: #38353B;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 700px;
+	font-weight: 1500px;
 	margin-bottom: 20px;
 }
 
@@ -70,14 +72,9 @@ li a {
 
 p {
 	font-family: Helvetica, Sans Serif;
-	margin-left: 550px;
 	text-align: center;
 	font-weight: 12px;
-	width: 750px
-}
 
-hr {
-	width: 300px;
 }
 
 footer {
