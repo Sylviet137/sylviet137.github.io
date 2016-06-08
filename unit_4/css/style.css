@@ -1,69 +1,64 @@
-style.css
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
-@import url(https://fonts.googleapis.com/css?family=Calligraffitti);
 
 body {
-	font-size: 16px;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1em;
 	background-color: #FFFFFD;
-	line-height: 1.0;
+	line-height: 1.5;
 }
 
 h1 {
-	font-family: 'Poiret One', cursive;
-	font-weight: normal;
-	font-size: 70px;
+	font-family: 'Quattrocento', Helvetica, Serif, Sans-Serif;
+	font-weight: 100;
+	font-size: 3.0em;
 	text-align: center;
 	color: #FFFFFF;
 	padding-top: 150px;
+	letter-spacing: 2.5px
 }
 
 h2 {
-	font-weight: 80px;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom:10px;
 }
 
 h3 {
-	font-family: Helvetica, Sans-Serif;
 	font-weight: 40px;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 
 ul {
-	font-family: Helvetica, Sans-Serif;
 	list-style-type: none;
 	margin-left: 370px;
 	padding: 0;
-	width: 600px;
+	width: 480px;
 }
 
 li {
 	display: inline;
 	display: block;
 	padding: 10px;
-	font-style: italic;
 }
 
 p {
-	font-family: Helvetica, Sans-Serif;
 	font-weight: 12px;
-	width: 600px;
+	width: 480px;
 }
 
 nav {
 	font-family: Georgia, thin, Serif;
 	text-decoration: none;
 	color: #000;
-	border-bottom: px solid #000;
+	border: none;
 	letter-spacing: 5px;
 	text-align: center;
 }
 
 footer {
- 	font-family: helvetica, Sans-Serif;
  	font-size: 10px;
 	padding: 10px;
 	text-align: center;
@@ -75,14 +70,17 @@ footer {
 }
 
 #slogan {
-	font-family: 'Calligraffitti', cursive;
+	font-size: 1.5em;
+	font-weight: 100;
+	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
+	font-style: italic;
 	line-height: 3.0px;
 }
 
 #italic {
-	font-size: 20px;
+	font-size: 1.25em;
 	font-style: italic;
-	padding-left: 370px;
+	margin: auto;
 }
 
 #hero {
