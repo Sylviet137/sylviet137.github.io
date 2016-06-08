@@ -74,7 +74,7 @@ footer {
 	font-weight: 100;
 	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
 	font-style: italic;
-	line-height: 3.0px;
+	line-height: 3px;
 }
 
 #italic {
@@ -90,7 +90,8 @@ footer {
 }
 
 #food {
-	background-size: center;
+	width: 1200px;
+	margin: auto;
 	padding-left: 180px;
 }
 
