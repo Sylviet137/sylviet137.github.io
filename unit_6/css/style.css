@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Amatica+SC');
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: Helvetica, Sans-Serif;
 	font-size: 20px;
@@ -8,7 +8,14 @@ body {
 	line-height: 1.5;
 	text-align: center;
 }
-
+body>img {
+	width:50%;
+	float:left;
+}
+header {
+	float:left;
+	width:50%;
+}
 h1 {
 	font-family: 'Amatica+SC', Helvetica, cursive, Sans-Serif;
 	font-weight: 100;
@@ -16,7 +23,7 @@ h1 {
 	text-align: center;
 	font-variant: small-caps;
 	color: black;
-	width: 600px;
+	/* width: 600px; */
 	padding-top: 100px;
 }
 
@@ -73,4 +80,7 @@ footer {
 #image {
 	float: right;
 	width: 50%;
+}
+#premise {
+	clear:both;
 }
