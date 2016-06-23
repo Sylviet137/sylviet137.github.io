@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Amatica+SC');
+@import url(https://fonts.googleapis.com/css?family=Bungee+Hairline);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
@@ -8,16 +9,9 @@ body {
 	line-height: 1.5;
 	text-align: center;
 }
-body>img {
-	width:50%;
-	float:left;
-}
-header {
-	float:left;
-	width:50%;
-}
+
 h1 {
-	font-family: 'Amatica+SC', Helvetica, cursive, Sans-Serif;
+	font-family: 'Bungee+Hairline', Helvetica, cursive Sans-Serif;
 	font-weight: 100;
 	font-size: 3.0em;
 	text-align: center;
@@ -54,33 +48,39 @@ footer {
 }
 
 #slogan {
+	float: right;
 	font-size: 1.5em;
 	font-weight: 100;
 	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
 	font-style: italic;
+	width: 480px;
+	margin: 80px;
 }
 
-#hero {
-	float: left;
-	width: 50%;
-	padding: 0;
-	margin; 0;
-}
-
-#nav {
-	float: right;
-	width: 50%;
-}
-
-#info {
-	float: left;
-	width: 50%;
-}
-
-#image {
-	float: right;
-	width: 50%;
-}
 #premise {
-	clear:both;
+	clear: both;
+	float: left;
+	width: 45%;
+	margin: 20px;
+}
+
+#collaborate {
+	clear: both;
+	float: left;
+	width: 45%;
+	margin: 20px;
+}
+
+header > img {
+width: 50%;
+float: left;
+padding: 0;
+margin: 0;	
+}
+
+body > img {
+width: 50%;
+float: right;
+padding: 0;
+margin: 0;
 }
