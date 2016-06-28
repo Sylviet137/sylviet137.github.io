@@ -47,39 +47,29 @@ footer {
 }
 
 #slogan {
-	float: right;
 	font-size: 1.5em;
 	font-weight: 100;
 	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
 	font-style: italic;
-	width: 480px;
-	margin: 80px;
 }
-
-#premise {
-	clear: both;
-	float: left;
-	width: 45%;
-	margin: 20px;
+.picture section {
+	padding:4em 0;
+	max-width: 35em;
+	margin: auto;
 }
-
-#collaborate {
-	clear: both;
-	float: left;
-	width: 45%;
-	margin: 20px;
+.picture {
+    height: 100vh;
+    width: 50%;
+    float: left;
 }
-
-header > img {
-width: 50%;
-float: left;
-padding: 0;
-margin: 0;	
+.yosemite {
+    background: url("../images/img_background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+	
 }
-
-body > img {
-width: 50%;
-float: right;
-padding: 0;
-margin: 0;
+.iceland {
+	background:url("../images/page_img.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
 }
