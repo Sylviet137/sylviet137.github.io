@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee+Hairline);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1em;
+	background-color: #FFFFFF;
+	line-height: 1.5;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Bungee+Hairline', Helvetica, cursive Sans-Serif;
+	font-weight: 100;
+	font-size: 3.0em;
+	text-align: center;
+	font-variant: small-caps;
+	color: black;
+	/* width: 600px; */
+	padding-top: 100px;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav {
+	text-align: right;
+}
+nav a {
+	font-family: Georgia, thin, Serif;
+	font-size: 1em;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #000;
+	border: none;
+	padding-right: 10px;
+	padding-top: 0;
+}
+
+footer {
+ 	font-size: 1em;
+	padding: 10px;
+	text-align: center;
+	background-color: #FFF89E;
+	clear: both;
+}
+
+#slogan {
+	float: right;
+	font-size: 1.5em;
+	font-weight: 100;
+	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
+	font-style: italic;
+	width: 480px;
+	margin: 80px;
+}
+
+#premise {
+	clear: both;
+	float: left;
+	width: 45%;
+	margin: 20px;
+}
+
+#collaborate {
+	clear: both;
+	float: left;
+	width: 45%;
+	margin: 20px;
+}
+
+header > img {
+width: 50%;
+float: left;
+padding: 0;
+margin: 0;	
+}
+
+body > img {
+width: 50%;
+float: right;
+padding: 0;
+margin: 0;
+}
