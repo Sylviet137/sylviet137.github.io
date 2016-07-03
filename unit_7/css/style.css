@@ -3,8 +3,8 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: Helvetica, Sans-Serif;
-	font-size: 1em;
-	background-color: #FFFFFF;
+	font-size: 1.0em;
+	background-color: #FCFCFC;
 	line-height: 1.5;
 	text-align: center;
 }
@@ -15,8 +15,7 @@ h1 {
 	font-size: 3.0em;
 	text-align: center;
 	font-variant: small-caps;
-	color: black;
-	/* width: 600px; */
+	color: #54535C;
 	padding-top: 100px;
 }
 
@@ -29,7 +28,7 @@ nav {
 }
 nav a {
 	font-family: Georgia, thin, Serif;
-	font-size: 1em;
+	font-size: 1.3em;
 	text-decoration: none;
 	font-variant: small-caps;
 	color: #000;
@@ -40,10 +39,35 @@ nav a {
 
 footer {
  	font-size: 1em;
+ 	font-style: italic;
 	padding: 10px;
 	text-align: center;
-	background-color: #FFF89E;
+	background-color: #D7F4FF;
 	clear: both;
+}
+
+.picture section {
+	padding:4em 0;
+	max-width: 35em;
+	margin: auto;
+}
+
+.picture {
+    height: 100vh;
+    width: 50%;
+    float: left;
+}	
+
+#yosemite {
+    background: url("../images/img_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#iceland {
+	background: url("../images/page_img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #slogan {
@@ -51,25 +75,18 @@ footer {
 	font-weight: 100;
 	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
 	font-style: italic;
+	margin: 2.5em;
 }
-.picture section {
-	padding:4em 0;
-	max-width: 35em;
-	margin: auto;
+
+#premise {
+	clear: right;
+	float: left;
+	padding: 2em;
 }
-.picture {
-    height: 100vh;
-    width: 50%;
-    float: left;
+
+#collaborate {
+	clear: right;
+	float: left;
+	padding: 2em;
 }
-.yosemite {
-    background: url("../images/img_background.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-	
-}
-.iceland {
-	background:url("../images/page_img.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
-}
+
