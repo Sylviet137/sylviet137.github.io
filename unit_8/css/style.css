@@ -98,4 +98,12 @@ footer {
 	clear: both;
 }
 
-@media screen only and (min-width: )
+@media only screen and (max-width: 989px ) {}
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
+	#yosemite {
+		display: none;
+	}
+}
