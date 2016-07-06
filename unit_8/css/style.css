@@ -76,6 +76,7 @@ footer {
 }
 
 #slogan {
+	text-align: center;
 	font-size: 1.5em;
 	font-weight: 100;
 	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
@@ -97,3 +98,5 @@ footer {
 	padding: 2em;
 	clear: both;
 }
+
+@media screen only and (min-width: )
