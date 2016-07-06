@@ -16,7 +16,7 @@ h1 {
 	text-align: center;
 	font-variant: small-caps;
 	color: #54535C;
-	padding-top: 100px;
+	padding-top: 4em;
 }
 
 h2 {
@@ -25,8 +25,8 @@ h2 {
 
 nav {
 	text-align: right;
-
 }
+
 nav a {
 	font-family: Georgia, thin, Serif;
 	font-size: 1.3em;
@@ -39,15 +39,15 @@ nav a {
 }
 
 nav a:hover {
-	color: #fa8072;
+	color: #FAD626;
 }
 
 footer {
  	font-size: 1em;
  	font-style: italic;
-	padding: 10px;
+	padding: .75em;
 	text-align: center;
-	background-color: #D7F4FF;
+	background-color: #FAEABB;
 	clear: both;
 }
 
@@ -75,7 +75,6 @@ footer {
     background-repeat: no-repeat;
 }
 
-
 #slogan {
 	font-size: 1.5em;
 	font-weight: 100;
@@ -85,16 +84,15 @@ footer {
 }
 
 #premise {
-	clear: right;
 	float: left;
+	max-width: 50%;
 	padding: 2em;
-	overflow-wrap: normal;
+	clear: both;
 }
 
 #collaborate {
-	clear: right;
 	float: left;
+	max-width: 50%;
 	padding: 2em;
-	overflow-wrap: normal;
+	clear: both;
 }
-
