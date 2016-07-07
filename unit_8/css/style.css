@@ -51,16 +51,19 @@ footer {
 	clear: both;
 }
 
-.clearfix:after {
+.clearfix1:after {
 	clear: both;
 	content: ".";
 	display: block;
 	height: 0;
-	visibility: hidden;
 }
 
-.clearfix {
+.clearfix2 {
 	display: inline-block;
+}
+
+.clearfix3 {
+	display: block;
 }
 
 .picture section {
@@ -106,7 +109,7 @@ footer {
 	padding: 2em;
 }
 
-@media only screen and (max-width: 989px ) {
+@media only screen and (max-width: 1000px ) {
 	h1, nav {
 		display: block;
 		text-align: center;
@@ -116,15 +119,29 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 1000px ) {
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
+	#slogan {
+		text-align: center;
+	}
+}
+
 @media only screen and (max-width: 580px) {
 	h1, nav {
 		display: block;
 		text-align: center;
 		float: none;
+		width: 100%;
 	}
-	nav a {
-		display: inline-block;
-		margin: 0 1em 1em;
+	nav a:link{
+		display: block;
+		margin: 5px;
+	}
+	h1 {
+		padding:0;
 	}
 	#yosemite {
 		display: none;
@@ -132,8 +149,16 @@ footer {
 	#iceland {
 		display: none;
 	}
-	body {
-		font-size: 0.75em;
+	#toggle: nav {
+		display: block;
+		margin: 2em;
+	}
+	#premise {
+		float: none;
+		text-align: center;
+	}
+	#collaborate{
+		float: none;
 		text-align: center;
 	}
 }
