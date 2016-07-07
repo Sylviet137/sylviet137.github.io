@@ -51,6 +51,22 @@ footer {
 	clear: both;
 }
 
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+.clearfix {
+	display: block;
+}
+
 .picture section {
 	padding:4em 0;
 	max-width: 35em;
@@ -84,18 +100,14 @@ footer {
 }
 
 #premise {
-	float: left;
 	padding-top: 6em;
 	max-width: 50%;
 	padding: 2em;
-	clear: both;
 }
 
 #collaborate {
-	float: left;
 	max-width: 50%;
 	padding: 2em;
-	clear: both;
 }
 
 @media only screen and (max-width: 989px ) {
@@ -103,7 +115,24 @@ footer {
 		display: block;
 		text-align: center;
 	}
+	body {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 584px) {
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
 	#yosemite {
 		display: none;
 	}
+	#iceland {
+		display: none;
+	}
+	body {
+		font-size: 12px;
+	}
 }
+
