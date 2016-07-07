@@ -63,10 +63,6 @@ footer {
 	display: inline-block;
 }
 
-.clearfix {
-	display: block;
-}
-
 .picture section {
 	padding:4em 0;
 	max-width: 35em;
@@ -120,10 +116,15 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 584px) {
+@media only screen and (max-width: 580px) {
 	h1, nav {
 		display: block;
 		text-align: center;
+		float: none;
+	}
+	nav a {
+		display: inline-block;
+		margin: 0 1em 1em;
 	}
 	#yosemite {
 		display: none;
@@ -132,7 +133,8 @@ footer {
 		display: none;
 	}
 	body {
-		font-size: 12px;
+		font-size: 0.75em;
+		text-align: center;
 	}
 }
 
