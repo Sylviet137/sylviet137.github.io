@@ -1,19 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 @import url(https://fonts.googleapis.com/css?family=Bungee+Hairline);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 * { margin:0; padding:0; box-sizing:border-box; }
+
 body {
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.0em;
+	font-family: helvetica, sans-serif;
+	font-size: 1em;
 	background-color: #FCFCFC;
-	line-height: 1.5;
+	line-height: 1.5em;
 	text-align: center;
 }
 
 h1 {
-	font-family: 'Permanent+Marker', cursive;
+	font-family: 'Bungee+Hairline', helvetica, cursive sans-serif;
 	font-weight: 100;
-	font-size: 3.0em;
+	font-size: 3em;
+	line-height: 2.5em;
 	text-align: center;
 	font-variant: small-caps;
 	color: #54535C;
@@ -22,6 +23,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	font-size: 1.7em;
 }
 
 nav {
@@ -29,13 +31,13 @@ nav {
 }
 
 nav a {
-	font-family: Georgia, thin, Serif;
+	font-family: Georgia, thin, serif;
 	font-size: 1.3em;
 	text-decoration: none;
 	font-variant: small-caps;
 	color: #000;
 	border: none;
-	padding-right: 10px;
+	padding-right: 0.75em;
 	padding-top: 0;
 }
 
@@ -44,33 +46,32 @@ nav a:hover {
 }
 
 footer {
- 	font-size: 1em;
- 	font-style: italic;
-	padding: .75em;
+	font-size: 1em;
+	font-style: italic;
+	padding: 0.75em;
 	text-align: center;
 	background-color: #FAEABB;
 	clear: both;
 }
 
-.clearfix1:after {
+.clearfix:after {
 	clear: both;
 	overflow: auto;
-	content: ".";
 	display: block;
 	height: 0;
 }
 
 .picture section {
-	padding:4em 0;
+	padding: 4em 0;
 	max-width: 35em;
-	margin: auto;
-}
+	margin:	auto;
+} 
 
 .picture {
-    height: 100vh;
-    width: 50%;
-    float: left;
-}	
+	height: 100vh;
+	width: 50%;
+	float: left;
+}
 
 #yosemite {
     background: url("../images/img_background.jpg");
@@ -87,59 +88,19 @@ footer {
 #slogan {
 	font-size: 1.5em;
 	font-weight: 100;
-	font-family: 'Poiret+One', helvetica, cursive, Sans-Serif;
+	font-family: 'Poiret+One', helvetica, cursive sans-serif;
 	font-style: italic;
 	padding: 2em;
 }
 
-#premise {
-	padding-top: 6em;
-	max-width: 50%;
-	padding: 2em;
-}
-
-#collaborate {
-	max-width: 50%;
-	padding: 2em;
-}
-
-@media only screen and (min-width: 1001px ) {
-	h1 {
-		text-align: center;
-	}
-	nav {
-		text-align: right;
-	}
-
-	p {
-		float: left;
-		text-align: center;
-	}
-
-	#slogan {
-		text-align: center;
-	}
-
-	#yosemite {
-		display: block;
-		float: left;
-		width: 50%;
-	}
-
-	#iceland {
-		display: block;
-		float: left;
-		width: 50%;
-	}
-}
-
-@media only screen and (max-width: 1000px ) {
+@media only screen and (max-width: 1000px) {
 	h1, nav {
 		display: block;
 		text-align: center;
 	}
 	body {
-		font-size: 14px;
+		font-size: 0.85em;
+		text-align: center;
 	}
 	#slogan {
 		float: left;
@@ -150,13 +111,11 @@ footer {
 		float: left;
 		max-width: 50%;
 	}
-
 	#iceland {
 		display: block;
 		float: left;
 		max-width: 50%;
 	}
-}
 }
 
 @media only screen and (max-width: 580px) {
@@ -167,13 +126,16 @@ footer {
 		float: none;
 		width: 100%;
 	}
-	nav a:link{
+	nav a:link {
 		display: block;
 		padding: 5px;
 		position: relative;
 	}
 	h1 {
-		padding:0;
+		padding: 0;
+	}
+	p {
+		text-align: center;
 	}
 	#yosemite {
 		display: none;
@@ -181,13 +143,4 @@ footer {
 	#iceland {
 		display: none;
 	}
-	#premise {
-		float: none;
-		text-align: center;
-	}
-	#collaborate{
-		float: none;
-		text-align: center;
-	}
 }
-
