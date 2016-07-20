@@ -129,15 +129,6 @@ footer {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 1440px) {
-.picture section {
-		height: 100vh;
-		margin: auto;
-	}	
-	#iceland {
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
 @media only screen and (max-width: 998px) {
 	h1 {
 		display: inline-block;
@@ -190,15 +181,6 @@ footer {
 		text-decoration: none;
 	}
 }
-@media only screen and (max-width: 911px) {
-	.picture section {
-		height: 100vh;
-		margin: auto;
-	}
-	#iceland {
-		background-size: cover;
-		background-repeat: no-repeat;
-	}	
 @media only screen and (max-width: 760px) {
 	h1 {
 		padding: 1em;
