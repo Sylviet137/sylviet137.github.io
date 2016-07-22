@@ -7,6 +7,7 @@ body {
 	font-family: 'Open+Sans', helvetica, Sans-serif;
 	font-size: 1em;
 	text-align: center;
+	line-height: 1.5em;
 }
 
 h1 {
@@ -27,13 +28,19 @@ h2 {
 	font-weight: 100;
 }
 
+table {
+	padding: 3em;
+	text-align: center;
+	width: 7em;
+}
+
+td {
+	padding: 1em 1em 1em 1em;
+}
+
 #slogan {
 	font-family: 'Pacifico', helvetica, cursive Sans-serif;
 	font-size: 1.5em;
 	margin: 5em;
 }
 
-#table {
-	padding: 3em;
-	text-align: center;
-}
