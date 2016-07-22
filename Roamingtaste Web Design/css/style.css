@@ -1,0 +1,39 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+	font-family: 'Open+Sans', helvetica, Sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Poiret+One', helvetica, cursive Sans-serif;
+	font-style: 2.5em;
+	text-align: center;
+	font-weight: 100;
+}
+
+nav {
+	text-align: right;
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+#slogan {
+	font-family: 'Pacifico', helvetica, cursive Sans-serif;
+	font-size: 1.5em;
+	margin: 5em;
+}
+
+#table {
+	padding: 3em;
+	text-align: center;
+}
