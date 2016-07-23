@@ -1,0 +1,85 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+	font-family: 'Open+Sans', helvetica, Sans-serif;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Poiret+One', helvetica, cursive Sans-serif;
+	font-size: 4em;
+	font-variant: small-caps;
+	text-align: center;
+	font-weight: 100;
+	line-height: 1.5em;
+	padding-bottom: 1em;
+}
+
+nav {
+	text-align: right;
+	font-size: 1.25em;
+	text-decoration: none;
+	color: black;
+	padding: 1em;
+	word-spacing: 1.0em;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FAE423;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+p {
+	float: left;
+	padding: 2em;
+	max-width: 50%;
+}
+
+table {
+	float: left;
+	padding: 1.5em;
+	text-align: center;
+	width: 3em;
+	position: center;
+	background-color: #D7E8FA;
+	border-width: 1em;
+	border-color: #FFFFFF;
+}
+
+td {
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#iceland {
+	background: url("../images/header_image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#slogan {
+	font-family: 'Pacifico', helvetica, cursive Sans-serif;
+	font-size: 2.0em;
+	margin: 5em;
+	font-weight: 100;
+	color: #FFFFFF;
+	padding: 1.5em;
+}
+
+
+
